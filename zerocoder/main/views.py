@@ -6,5 +6,9 @@ def index(request):
     return HttpResponse("<h1>First django app. You're at the main index.</h1>")
 
 
-def new(request):
-    return HttpResponse("<h1>First django app. You're at the new index.</h1>")
+def data(request):
+    return HttpResponse("<h1>Data text.</h1>")
+
+
+def test(request):
+    return HttpResponse("<h1>Test text.</h1>")
